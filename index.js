@@ -61,5 +61,32 @@ const [re, orang, yello, gree, blu, indg, viole] = colors;
 // Objects
 
 // 7. Use destructuring to assign all variables using the keys as the variable names
+const {muppetName, color, song, job, partner} = muppet
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+// const {song2, song4, nestedJob, nestedPartner} = nestedMuppet
+// const { songs: [,,song2,,song4], nestedJob, nestedPartner }  = nestedMuppet;
+const { nestedName, nestedColor, album: { theMuppetMovie: { song1, song2, song3, song4 }, }, nestedJob, nestedPartner} = nestedMuppet;
+// const { ham, hotDog } = doggie.favoriteFoods.meats;
+// const nestedMuppet = {
+//   nestedName: 'Kermit',
+//   nestedColor: 'green',
+//   album: {
+//     theMuppetMovie: {
+//       song1: 'Rainbow Connection',
+//       song2: 'Moving Right Along',
+//       song3: 'Never Before, Never Again',
+//       song4: 'I Hope That Something Better Comes Along',
+//     },
+//   },
+//   nestedJob: 'Host of The Muppet Show',
+//   nestedPartner: 'Miss Piggy'
+// };
+// expect(song2).to.exist
+// expect(song2).to.equal("Moving Right Along")
+// expect(song4).to.exist
+// expect(song4).to.equal("I Hope That Something Better Comes Along")
+// expect(nestedJob).to.exist
+// expect(nestedJob).to.equal("Host of The Muppet Show")
+// expect(nestedPartner).to.exist
+// expect(nestedPartner).to.equal("Miss Piggy")

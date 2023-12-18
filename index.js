@@ -38,7 +38,7 @@ const [bessie, , dolly, babe, little ] = farmAnimals.split(" ");
 
 // 3k. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pin.
 
-// const ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 // const farmAnimals = 'cow horse sheep pig chicken' ]
 // farmAnimals.split(' ')
 // const [blackAndWhite, black, pink] = colors
@@ -47,15 +47,16 @@ const [bessie, , dolly, babe, little ] = farmAnimals.split(" ");
 const [ blackAndWhite, , black, pink, ] = farmAnimals.split(' ');
 
 
-// farmAnimals.slice(0, 1) + farmAnimals.slice(2, 3)
-
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
+const [red, orange, yellow, green, blue, indigo, violet] = colors;
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
+const [r, o,  y, g, b, i, v] = colors
 
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
+const [re, orang, yello, gree, blu, indg, viole] = colors;
 
 // Objects
 
